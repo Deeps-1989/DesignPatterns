@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E3D5E0EA-55D6-4504-BDB5-3B5C18368C41}"
+ProjectSection(SolutionItems) = preProject
+	app.config = app.config
+	appsettings.Development.json = appsettings.Development.json
+	appsettings.json = appsettings.json
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "src\FactoryPattern\FactoryPattern.csproj", "{B411203D-0C8B-4389-A930-23B5604D87EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "src\App\App.csproj", "{5ADFDB80-2278-4D86-81FB-057DD51FB96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B411203D-0C8B-4389-A930-23B5604D87EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B411203D-0C8B-4389-A930-23B5604D87EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B411203D-0C8B-4389-A930-23B5604D87EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B411203D-0C8B-4389-A930-23B5604D87EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADFDB80-2278-4D86-81FB-057DD51FB96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADFDB80-2278-4D86-81FB-057DD51FB96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADFDB80-2278-4D86-81FB-057DD51FB96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADFDB80-2278-4D86-81FB-057DD51FB96C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B411203D-0C8B-4389-A930-23B5604D87EB} = {E3D5E0EA-55D6-4504-BDB5-3B5C18368C41}
+		{5ADFDB80-2278-4D86-81FB-057DD51FB96C} = {E3D5E0EA-55D6-4504-BDB5-3B5C18368C41}
+	EndGlobalSection
+EndGlobal
