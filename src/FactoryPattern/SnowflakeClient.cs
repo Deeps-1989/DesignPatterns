@@ -6,6 +6,7 @@ namespace FactoryPattern
     {
         public void RunQuery()
         {
+            Console.WriteLine("");
             Console.WriteLine("Running Query for snowflake");
         }
     }

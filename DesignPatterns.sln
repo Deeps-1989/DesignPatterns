@@ -1,11 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E3D5E0EA-55D6-4504-BDB5-3B5C18368C41}"
-ProjectSection(SolutionItems) = preProject
-	app.config = app.config
-	appsettings.Development.json = appsettings.Development.json
-	appsettings.json = appsettings.json
-EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "src\FactoryPattern\FactoryPattern.csproj", "{B411203D-0C8B-4389-A930-23B5604D87EB}"
 EndProject
