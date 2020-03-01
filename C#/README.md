@@ -1,7 +1,7 @@
 # DesignPatterns
 Design Patterns in c#
 
-### Example usgae:
+### Example usage:
 
 Under src/App folder, please run the following command:
 
