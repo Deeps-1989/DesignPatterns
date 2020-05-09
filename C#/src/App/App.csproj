@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj" />
+      <ProjectReference Include="..\Patterns\Patterns.csproj" />
     </ItemGroup>
 
 </Project>

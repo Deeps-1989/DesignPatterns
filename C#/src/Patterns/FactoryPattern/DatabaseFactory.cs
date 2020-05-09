@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace FactoryPattern
+namespace Patterns.FactoryPattern
 {
     public class DatabaseFactory : IDatabaseFactory
     {

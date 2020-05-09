@@ -1,6 +1,6 @@
-using System;
+using System; 
 
-namespace FactoryPattern
+namespace Patterns.FactoryPattern
 {
     public class SnowflakeClient : IDatabaseClient
     {

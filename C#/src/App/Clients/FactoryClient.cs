@@ -1,6 +1,26 @@
-using System.Threading.Tasks;
 using App.Common;
-using FactoryPattern;
+using Patterns.FactoryPattern;
+/*
+To check the behaviour according to different environments and on runtime
+For other environments
+ASPNETCORE_ENVIRONMENT=prod    dotnet run -s FactoryClient 
+ASPNETCORE_ENVIRONMENT=staging  dotnet run -s FactoryClient
+```
+
+Under DesignPatterns folder:
+
+```
+dotnet build DesignPatterns.sln
+cd src/App
+ASPNETCORE_ENVIRONMENT=<environment> dotnet run -s FactoryClient 
+
+```
+
+### Values for environment:
+
+- development
+- prod
+- staging*/
 
 namespace App.Clients
 {

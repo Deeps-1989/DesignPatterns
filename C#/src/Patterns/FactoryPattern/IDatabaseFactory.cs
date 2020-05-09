@@ -1,4 +1,4 @@
-namespace FactoryPattern
+namespace Patterns.FactoryPattern
 {
     public interface IDatabaseFactory
     {
